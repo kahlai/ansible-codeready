@@ -18,3 +18,4 @@ spec:
     args: ['/remote-endpoint/plugin-remote-endpoint']
   extensions:
   - https://github.com/kahlai/ansible-codeready/raw/master/plugin/zbr.vscode-ansible-0.4.5.vsix
+  - https://github.com/kahlai/ansible-codeready/raw/master/plugin/ms-python.python-2021.8.1105858891.vsix
