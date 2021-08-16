@@ -6,7 +6,7 @@ projects:
     source:
       location: 'https://github.com/kahlai/ansible-codeready'
       type: git
-      branch: dev
+      branch: master
 components:
   - alias: ansible
     type: dockerimage
