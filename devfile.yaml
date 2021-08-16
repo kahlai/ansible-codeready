@@ -1,10 +1,10 @@
 apiVersion: 1.0.0
 metadata:
-  generateName: che-ansible-demo-
+  generateName: ansible-codeready-
 projects:
   - name: ansible-codeready
     source:
-      location: 'https://github.com/khlai/ansible-codeready'
+      location: 'https://github.com/kahlai/ansible-codeready'
       type: git
       branch: dev
 components:
