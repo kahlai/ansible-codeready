@@ -1,0 +1,7 @@
+---
+- name: Hello world
+  hosts: localhost
+  tasks:
+    - name: "Print Hello world"
+      debug: 
+        msg: "Hello World from {{ ansible_facts['fqdn'] }} " 

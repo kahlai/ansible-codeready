@@ -1,0 +1,20 @@
+apiVersion: v2
+publisher: vscoss
+name: vscode-ansible
+version: latest
+type: VS Code extension
+displayName: Ansible
+title: Ansible extension
+description: ansible for che
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/ansible/vscode-ansible
+category: Language
+firstPublicationDate: '2021-08-16'
+spec:
+  containers:
+  - image: quay.io/sunix/che-remote-plugin-ansible
+    name: vscode-ansible
+    memoryLimit: '512M'
+    args: ['/remote-endpoint/plugin-remote-endpoint']
+  extensions:
+  - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/zbr/vsextensions/vscode-ansible/0.4.5/vspackage
