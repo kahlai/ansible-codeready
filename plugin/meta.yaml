@@ -19,3 +19,4 @@ spec:
   extensions:
   - https://github.com/kahlai/ansible-codeready/raw/master/plugin/zbr.vscode-ansible-0.4.5.vsix
   - https://github.com/kahlai/ansible-codeready/raw/master/plugin/ms-python.python-2021.8.1105858891.vsix
+  - https://github.com/kahlai/ansible-codeready/raw/master/plugin/redhat.vscode-yaml-0.22.0.vsix
