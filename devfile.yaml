@@ -39,7 +39,7 @@ commands:
   - name: "Ansible Lint"
     actions:
       - type: exec
-        command: ansible-link .
+        command: ansible-lint .
         component: ansible
         workdir: /projects/ansible-codeready
 
